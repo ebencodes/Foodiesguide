@@ -1,0 +1,13 @@
+{
+    "presets": [
+        ["@babel/env", {
+            "targets": {
+                "browsers": [
+                    //This targets  the versions of web browsers we want babel to use ES5 syntax
+                     "last 5 versions",
+                     "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
